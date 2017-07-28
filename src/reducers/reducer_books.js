@@ -1,8 +1,8 @@
 export default function() {
     return [
-        { term: 'javscript : the good parts' },
-        { term: 'harry porter' },
-        { term: 'the dark tower' },
-        { term: 'eloquent ruby' }
-    ];
+        { title: 'javscript : the good parts' },
+        { title: 'harry porter' },
+        { title: 'the dark tower' },
+        { title: 'eloquent ruby' }
+    ]
 }
