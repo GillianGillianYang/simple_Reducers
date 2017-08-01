@@ -5,8 +5,15 @@ import { connect } from 'react-redux';
 //export default 
 class BookDetail extends Component{
 
+    
+
     // app first boots up, no book is select , this.props = null (本來是undefined )
     render(){
+         
+        this.state.aaa=1; // this is componet state
+        //redux managing appliction state
+        this.setState({test:'test' });
+
         if(!this.props.book){
             return <div>select a book to get started.</div>;
         }
